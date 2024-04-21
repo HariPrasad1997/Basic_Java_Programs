@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Airtel.java&apos; to &apos;AnnotatedExampleOfSpringDI/src/main/java/com.springCore.AnnotatedExampleOfSpringDI&apos;&#x0A;- Original project: &apos;AnnotatedExampleOfSpringDI&apos;&#x0A;- Destination element: &apos;AnnotatedExampleOfSpringDI/src/main/java/com.springCore.AnnotatedExampleOfSpringDI&apos;&#x0A;- Original element: &apos;com.springCore.AnnotatedExampleOfSpringDI.Airtel.java&apos;" description="Copy compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springCore.AnnotatedExampleOfSpringDI" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springCore.AnnotatedExampleOfSpringDI{Airtel.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1712189515152" units="1" version="1.0"/>
+</session>

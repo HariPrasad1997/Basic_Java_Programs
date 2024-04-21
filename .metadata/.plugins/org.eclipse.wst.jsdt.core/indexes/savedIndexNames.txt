@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/hkathi/Documents/Complete_Java_Programs/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+5337218.index
+427294652.index
+2529735207.index
+2314144843.index
+286972152.index
+1884931388.index

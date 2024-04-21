@@ -1,0 +1,5 @@
+1712078665804	Extract local variable 'sorted'
+1712114253284	Extract local variable 'replaceAll'
+1712114402809	Extract local variable 'sum'
+1712114515535	Extract local variable 'sum2'
+1712167980886	Extract local variable 'array'

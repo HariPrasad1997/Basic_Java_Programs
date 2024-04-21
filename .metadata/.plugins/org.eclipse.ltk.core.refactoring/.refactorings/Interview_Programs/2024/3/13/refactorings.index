@@ -1,0 +1,4 @@
+1711300308121	Extract local variable 'descendingOrder'
+1711300431757	Extract local variable 'top3Highest'
+1711300551653	Extract local variable 'salaryLessThanThirdHighest'
+1711300644719	Extract local variable 'count'

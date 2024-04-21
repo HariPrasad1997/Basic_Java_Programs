@@ -1,0 +1,14 @@
+package com.springSecurity;
+
+public class HiController {
+
+	
+	public String sayHi() {
+		return "Hi  everyone";
+	}
+
+	public String sayHello() {
+		return "Hello  everyone";
+	}
+
+}

@@ -1,0 +1,107 @@
+1. What are the four pillars of OOP's Concepts?
+    i)  Encapsulation :- Binding all programming components into single entity
+    example: A POJO class with private attributes and public type of getter and setter methods
+    ii) Polymorphism's :- The ability to appear more than one form 
+        two types of polymorphism's we have 
+         a) Overloading or CompileTime Polymorphism : Same method name with different parameters
+         b) Overriding or RunTime Polymorphism : Same method and same parameters type
+   iii) Abstraction: Hiding the un-necessary information and showing the functionality to the end-user.
+   iv) Inheritance: Extending if both are classes or interfaces or implementing if one is classand other is interface.
+
+2. Where did you use this concepts in your projects?
+
+3. Explain Exception hierarchy in inheritance?
+  If Parent class method throwing the Exception, then no need to throws/handle it in the child class method.
+  If the Child class method throwing the Exception then Parent class must throws that Exception.
+    Example :-
+    public class Parent {
+	public void m1() throws Exception {
+		System.out.println("Parent method");
+	}
+	}
+	
+	public class Child extends Parent {
+
+	@Override
+	public void m1() {
+		System.out.println("child method");
+	}
+	
+	public static void main(String[] args) {
+		Parent parent = new Child();
+		parent.m1();
+	}
+	}
+
+4. Parent and child override scenario?
+
+  If the Object is created by using Child class (new Child()) and the Child class is overriding the parent class method
+  then we will get the output from the Child class method
+  
+  If the Object is created by using Child class (new Child()) and the Child class does not overriding the parent class method
+  then we will get the output from the Parent class method
+  
+5. Can we override private and static methods?
+   No
+   If we try to override the static methods then that is consider as a method hiding.
+   Private methods we cannot override because the scope of the private is inside a class it will not visible to the child class.
+    
+6. What is the difference of Java-7 and Java-8 Interface?
+
+  Java-7 : We can declare only abstract method in interface
+  Java-8 : We can declare static,default and abstract methods in the interface
+  default method : To not force to my implementation class to override this method
+  
+7. What is the final,finalize and finally methods
+   final: it is a keyword used for declaring the variables and classes
+   finally: It is a block which is used for cleanup activity
+   finalize : It is a method Which will call by jvm in periodical manner to cleanup the unused objects
+   When we write system.gc() this finalize method will called automatically
+   
+8. What is equals and hashcode method and it contracts?
+   HashCode: used to generate unique or reference number of an object through which we can easily identify uniqness 
+             of an object
+   Equals: used to compare objects based on it's content.
+   
+9. What is Exception and it's hierarchy?
+   
+10. Wht checked Exception also called as a compile time exception, is it occurs in compile time?
+   No, it's just a naming convention
+
+11. How to write your own custom Exception?
+   create a class like OrderNotFoundException and extends it with either Exception or RuntimeException
+   and create a default constructor and pass the message with the super keyword.
+   public OrderNotFoundException(String message) {
+		super(message);
+	} 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

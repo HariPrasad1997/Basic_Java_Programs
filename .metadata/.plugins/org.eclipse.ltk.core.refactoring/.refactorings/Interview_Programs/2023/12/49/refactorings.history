@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;collect&apos; from expression &apos;numbers.stream().filter(x -&gt; x &gt; 20).collect(Collectors.toList())&apos;&#x0A;- Original project: &apos;Interview_Programs&apos;&#x0A;- Variable name: &apos;collect&apos;&#x0A;- Destination method: &apos;dated_08_12_23.FilterNumbersUsingJava8.main(...)&apos;&#x0A;- Variable expression: &apos;numbers.stream().filter(x -&gt; x &gt; 20).collect(Collectors.toList())&apos;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;collect&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;dated_08_12_23{FilterNumbersUsingJava8.java" name="collect" replace="true" selection="272 66" stamp="1702047151888" varType="false" version="1.0"/>
+</session>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<bean name="student"
+		class="com.springCore.setterInjection.Student">
+		<property name="studentName" value="HariPrasad" />
+		<property name="rollNo" value="15BF5A0316" />
+		<property name="marks" value="85"></property>
+	</bean>
+
+</beans>

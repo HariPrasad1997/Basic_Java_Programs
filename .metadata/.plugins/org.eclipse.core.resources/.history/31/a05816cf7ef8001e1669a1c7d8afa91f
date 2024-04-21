@@ -1,0 +1,18 @@
+package youtube;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PlayerMain {
+	public static void main(String[] args) {
+		Player p1 = new Player("Harsha", 50, "Batsman");
+		Player p2 = new Player("Anand", 30, "Batsman");
+		Player p3 = new Player("Suresh", 10, "Bowler");
+
+		List<Player> players = new ArrayList<>();
+		players.add(p1);
+		players.add(p2);
+		players.add(p3);
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;collect&apos; from expression &apos;words.stream().filter(nonEmpty.negate()).collect(Collectors.toList())&apos;&#x0A;- Original project: &apos;Java8Examples&apos;&#x0A;- Variable name: &apos;collect&apos;&#x0A;- Destination method: &apos;java8.Predicates.main(...)&apos;&#x0A;- Variable expression: &apos;words.stream().filter(nonEmpty.negate()).collect(Collectors.toList())&apos;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;collect&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;java8{Predicates.java" name="collect" replace="true" selection="338 70" stamp="1707665749070" varType="false" version="1.0"/>
+</session>

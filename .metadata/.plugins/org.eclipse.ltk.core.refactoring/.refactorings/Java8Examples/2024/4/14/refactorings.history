@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;collect&apos; from expression &apos;employees.stream().map(e -&gt; {if (e.getAge() &lt;= 25) {e.setSalary(e.getSalary() * 1.10);}return e;}).collect(Collectors.toList())&apos;&#x0A;- Original project: &apos;Java8Examples&apos;&#x0A;- Variable name: &apos;collect&apos;&#x0A;- Destination method: &apos;java8.FindMaxSalary.main(...)&apos;&#x0A;- Variable expression: &apos;employees.stream().map(e -&gt; {if (e.getAge() &lt;= 25) {e.setSalary(e.getSalary() * 1.10);}return e;}).collect(Collectors.toList())&apos;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;collect&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;java8{FindMaxSalary.java" name="collect" replace="true" selection="1547 147" stamp="1712188261712" varType="false" version="1.0"/>
+</session>

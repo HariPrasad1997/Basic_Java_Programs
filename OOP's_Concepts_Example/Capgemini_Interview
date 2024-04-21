@@ -1,0 +1,81 @@
+   ==========================L1 Round==========================================
+1. Introduce yourself?
+2. What's your project and what is the purpose of your project and what's your role in that?
+3. What are your day to day responsibilities and tasks?
+
+Techinical questions
+====================
+1. Explain the features of java8?
+2. What is the purpose of default and static methods in interface after java8?
+3. Intermediate and terminal operations in java8?
+   ex: filter,map,flatmap are intermediate
+       collectors.tolist(),toMap() are terminal
+4. In youtube live how can you count the number of viewers by using Rest api design using controller?
+5. How can we implement the singleton pattern? what are the different ways? ex: Annotation or XML or complete java code
+6. How to use without using the default constructor to achieve the use of getInstnace method?
+   ex: Either make our constructor as private or From the constructor we can through Exception
+7.Implement Comparator in streams?
+  ex: In List Employee objects we have Id,name,company by using comparator how can you sort the employees by using id
+8. In streams Filter method what is it signature of method wat it will return ?
+   filter(Predicate<T> predicate)
+9.How to convert the String into an character by using streams of java8? and which character is there and how many times?
+  ex: mapToObject or type cast the characters
+  
+10. Basic difference between Spring and SpringBoot?
+   ex: Explain how are we connect to database by using datajpa in Springboot
+11 Cyclic dependency in maven ? and what is the use of Maven?
+12. What is Dependency Injection? and which injection is preferred either setter or constructor and why?
+13 How can you make a class as immutable and what are the steps need to follow?
+
+
+==============================L2 Round=======================================
+
+1. Introduce yourself?
+2. Explain about java8 features whatever you know?
+   ex: Tell me about DateTimeApi and what are changes happend in Java8?
+3. Streams coding questions?
+   a) Take a list of objects and remove the duplicates and sort it?
+      remove duplicates using --> distinct() method
+      sort based on Comparator.naturalOrder() --> for Ascending 
+      Comparator.reverseOrder() --> for Descending
+4. Take a list and find the highest element?
+   use .max() method and .min() for minimum element
+5. Explain about groupingBy in Comparator
+6. Add a list of Employees into the List Object?
+7. Default method use case?
+8. Spring actuators and spring profiles?
+9. What do you know about log4J and what is the int value in log.info,log.warn,log.debug?
+10. What you are using in transaction management?
+11. Do you have any idea about Junit's? and What's the difference b/w Junit4 and Junit5
+12. What is IntegrationTest and UnitTest?
+13. Mockito and powerMockito ?
+14. What is the need of creating Spy?
+15. How to stub the private methods @InjectMocks,Assersitions AsserThat ?
+16. RestApi and implementations and what is the purpose of RestEndpoint?
+17. Explain about status code 200, 202, 204 and all Annotations about like Post,Get,Put,Patch,Delete?
+18. SpringBoot JPA and how to write a custom query and what is mean by Entity?
+19. OneToOne and ManyToOne Mappings?
+20 Microservices Complete functionalities and related Questions and API gateway?
+21. Whate are the steps we need to follow for to Create pure OOOP 
+22. Agile methodology and the process ? like Scrum standup meetings,canban, Jira,Git?
+23. Spring and SpringBoot difference and springDevtools usecase?
+
+=======================English Exam============
+
+Basic questions like Comprehence
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
